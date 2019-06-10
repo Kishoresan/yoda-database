@@ -1,0 +1,11 @@
+insert into LENDER.T_LENDING_COMPANY (
+	EMAIL, 
+	LENDER_NAME,
+    LENDER_TYPE_CODE,
+    LENDER_COUNTRY_CODE,
+    LENDER_TURNOVER_CCY,
+    LENDER_TURNOVER_MIN,
+    LENDER_TURNOVER_MAX,
+    LENDER_WEBSITE_URL,
+    LENDING_CURRENCY_TYPE) VALUE (
+    'support@btcjam.com', 'BTCJam', 'P2PB-CC', 'US', 'USD', 0, 5000, 'https://blog.btcjam.com/', 'CRYPTO');
