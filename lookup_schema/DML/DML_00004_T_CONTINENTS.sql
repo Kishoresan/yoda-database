@@ -1,4 +1,4 @@
-INSERT INTO T_CONTINENTS VALUES
+INSERT INTO LOOKUP.T_CONTINENT VALUES
   ('AF', 'Africa'),
   ('AS', 'Asia'),
   ('EU', 'Europe'),
