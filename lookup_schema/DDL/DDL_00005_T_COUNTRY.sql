@@ -9,5 +9,5 @@ CREATE TABLE LOOKUP.T_COUNTRY (
   IS_ACTIVE boolean DEFAULT 0 ,
 PRIMARY KEY (`ID`),
   KEY `continent_code` (`continent_code`),
-  CONSTRAINT `fk_continents` FOREIGN KEY (`continent_code`) REFERENCES `T_CONTINENTS` (`code`)
+  CONSTRAINT `fk_continents` FOREIGN KEY (`continent_code`) REFERENCES LOOKUP.T_CONTINENT (`code`)
 ) ENGINE=InnoDB;
